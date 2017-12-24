@@ -1,16 +1,37 @@
-# jekyll-simple
+dbyll
+=====
 
-## simple
-simple is a theme designed for blogger using static site generator like jekyll, Hexo etc.
+Open source stylish, minimalistic theme for jekyll.  
+Demo: http://dbtek.github.io/dbyll/
 
-Especially for those who writes in both Chinese and English. The font-type setting looks really good when writers use Chinese mixed with English.
+## New
+- Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
+- :new: Check out [Paper](https://github.com/dbtek/paper), new Material Design Jekyll theme.
 
-Supposedly, this could work with Japanese as well but never had a chance to try.
+### Features
+- Responsive layout.
+- Supports tags and categories.
+- Social profile and bio of author.
+- Bootstrap based.
+- Glyphicon and Font-Awesome Icons.
+- Pagination.
+- Syntax highlighting with pygments.
+- Disqus comments.
+- :new: Custom sidebar background image.
 
-## Story behind this theme
 
-It has been long that using font with Chinese in web was a tedious and time-consuming work. It would be almost impossible to make different OS or devices to look the same.
+### Download
+* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
 
-iOS 9 has pulished some new fonts in Chinese and I decided to make one theme that looks good on iOS devices, at the same time, making it acceptable on computers using other fonts.
+### Install
+- You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) installed in your system.
+- Install bundler which helps in specifying and installing dependencies of any Ruby project. ```gem install bundler```
+- Go to the root of the repo and run this - ```bundle install```
+- Then - ```bundle exec jekyll serve```
 
-So mobile goes first, then the macOS.
+### Screenshots
+![dbyll-screenshot](assets/media/dbyll-ss.png)
+
+### License
+- [MIT](http://opensource.org/licenses/MIT)
+
