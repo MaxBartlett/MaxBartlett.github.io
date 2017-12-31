@@ -1,8 +1,5 @@
-source 'https://rubygems.org'
-gem 'jekyll'
+source 'http://rubygems.org'
 
-group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "pygments.rb"
-end
-
+gem 'github-pages'
+gem 'html-proofer'
+gem 'jekyll-admin'

@@ -1,40 +1,104 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# main text of home
+name: Max Bartlett
+bio: Duke Student, Programmer, Musician
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
-markdown: kramdown
-disqus: MaxBartlett
-google_analytics: MaxBartlett
-title: Max Bartlett
+# twitter summary info
+description: Max Bartlett's Blog
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: Max Bartlett's Blog
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
 
-description:
-author:
-  name: Max Bartlett
-  email: maxwellmbartlett@gmail.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: MaxBartlett
-  bio: Duke '20
-  email_md5: f65a383141c0a51f206f851b249a4ae2
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: true
+resume-external: false
+resume-url: assets/resume.pdf
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+# url: https://koppl.in/indigo
+your url: http://www.maxbartlett.com
 
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+permalink: /:title/
 
-BASE_PATH:
+# To enable google analytics, supply your token below
+# analytics-google: 'UA-111610440-1'
+
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
+
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: mydisqus # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
+
+# if you don't have any of social below, comment the line
+# facebook: myfacebook
+# twitter: mytwitter
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+linkedin: MaxBartlett
+# youtube: myyoutube
+# spotify: myspotify
+github: MaxBartlett
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+email: maxwellmbartlett@gmail.com
+
+authors:
+    #johndoe:
+        #name: Max Bartlett
+        #bio: Duke '20, Computer Science
+        #external-image: false
+        #picture: assets/images/profile.jpg
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
 
 plugins:
-  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+
+jekyll-mentions:
+    base_url: https://github.com
