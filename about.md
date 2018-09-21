@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p> I'm originally from Scottsdale, AZ, but I currently live in Durham, NC, where I'm a sophomore at Duke University. I'm majoring in Computer Science with minors in Arabic and Religion.
+<p> I'm originally from Scottsdale, AZ, but I currently live in Durham, NC, where I'm a junior at Duke University. I'm majoring in Computer Science with minors in Arabic and Religion.
 
 <p> During my freshman year at Duke, I was fortunate to be accepted to the <a href = "https://focus.duke.edu/clusters-courses/middle-east-islam-global-contexts"> Middle East and Islam in Global Contexts FOCUS Cluster</a>. This academic program, alongside Arabic coursework, sparked my interest in the Middle East. I was able to leverage this experience by participating in <a href = "https://dukeengage.duke.edu/program/jordan/"> DukeEngage Jordan</a> the following summer.
 
