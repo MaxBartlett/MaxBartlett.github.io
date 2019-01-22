@@ -30,7 +30,7 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
+  shortname: maxbartlett # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
@@ -53,11 +53,11 @@ github: MaxBartlett
 email: maxwellmbartlett@gmail.com
 
 authors:
-    #johndoe:
-        #name: Max Bartlett
-        #bio: Duke '20, Computer Science
-        #external-image: false
-        #picture: assets/images/profile.jpg
+    maxbartlett:
+        name: Max Bartlett
+        bio: Duke Student, Programmer, Musician 
+        external-image: false
+        picture: assets/images/profile.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
