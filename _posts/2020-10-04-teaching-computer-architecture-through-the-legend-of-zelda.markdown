@@ -2,6 +2,7 @@
 title: "Teaching Computer Architecture through The Legend of Zelda"
 layout: post
 date: 2020-10-04 15:00
+image: https://i.imgur.com/LxbpGwq.png
 headerImage: false
 tag:
 - Education
@@ -10,7 +11,7 @@ tag:
 projects: false
 category: blog
 author: maxbartlett
-description: "test"
+description: "Teaching Computer Architecture through The Legend of Zelda"
 ---
 
 ![](https://i.imgur.com/LxbpGwq.png)
