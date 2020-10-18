@@ -13,10 +13,9 @@ author: maxbartlett
 description: Results from a Spring 2018 survey of hook-up culture at Duke University
 --- 
 ## Introduction
-*Let's Talk About Sex* was my [final team project](https://www2.stat.duke.edu/courses/Spring18/Sta199/project/project.html
-) for [STA199: Introduction to Data Science](https://www2.stat.duke.edu/courses/Spring18/Sta199/). I worked with [Liam Pulsifer](https://github.com/lwpulsifer) and [Jennifer Chin](https://github.com/jenniferchin) to formulate an interesting research question, collect, clean, and analyze relevant data, and present our findings to our professor, teaching assistants, and peers.
+*Let's Talk About Sex* was my final team project for STA199: Introduction to Data Science.[^1] I worked with Liam Pulsifer and Jennifer Chin to formulate an interesting research question, collect, clean, and analyze relevant data, and present our findings to our professor, teaching assistants, and peers.[^2]<sup>,</sup>[^3]
 
-Hook-up culture at Duke has long been a hot topic [among](https://www.dukechronicle.com/article/2017/03/sexual-assault-and-hookup-culture) [both](https://www.dukechronicle.com/article/2017/04/in-defense-of-dating-at-duke) [students](https://www.dukechronicle.com/article/2018/01/df3dfiztz28o4rd) and in [the media](https://www.theatlantic.com/magazine/archive/2011/01/the-hazards-of-duke/308328/), especially since the Duke lacrosse scandal hit national headlines in 2006. The narrative that Duke students eschew traditional romantic relationships for hook-ups, instead prioritizing their intense studies and future high-powered careers, continues to dominate campus discourse on dating. Despite all of the attention, most reports on Duke's hook-up culture rely on anecdotal evidence, save for a [2007 survey conducted by Duke researchers](http://dukemagazine.duke.edu/article/sex-love-and-celibacy). Jennifer, Liam, and I believe that without data representative of the entire university, unfounded expectations and unhealthy social pressures will continue to permeate through the student body. A decade after the 2007 study, our team wanted to answer the following questions:
+Hook-up culture at Duke has long been a hot topic among both students and in the media, especially since the Duke lacrosse scandal hit national headlines in 2006.[^4]<sup>,</sup>[^5]<sup>,</sup>[^6]<sup>,</sup>[^7] The narrative that Duke students eschew traditional romantic relationships for hook-ups, instead prioritizing their intense studies and future high-powered careers, continues to dominate campus discourse on dating. Despite all of the attention, most reports on Duke's hook-up culture rely on anecdotal evidence, save for a 2007 survey conducted by Duke researchers.[^8] Jennifer, Liam, and I believe that without data representative of the entire university, unfounded expectations and unhealthy social pressures will continue to permeate through the student body. A decade after the 2007 study, our team wanted to answer the following questions:
 
 * Do high school students with little/no sexual experience significantly change their behavior upon coming to Duke?
 * How do these findings align with common stereotypes surrounding hook-up culture?
@@ -77,3 +76,14 @@ We also struggled with the ambiguity of certain aspects of the survey. We asked 
 Additionally, we left the definition of "partners" to be ambiguous as this can mean different things to different people, especially between heterosexual and LGBT+ individuals. However, this is again a trade-off that results in a shorter survey, but makes it more difficult to compare different segments of our data.
 
 Ultimately, there are thousands of different factors that influence a person's romantic and sexual history. We can neither hope to paint a full picture of Duke's dating culture through one number, their number of partners, nor attribute one's history directly to Duke's culture. But through our analysis, we were able to examine commonly held stereotypes surrounding this culture and scrutinize their veracity.
+
+#### Footnotes
+
+[^1]: [Showcase your inner data scientist](https://www2.stat.duke.edu/courses/Spring18/Sta199/project/project.html)
+[^2]: [Liam Pulsifer](https://github.com/lwpulsifer)
+[^3]: [Jennifer Chin](https://github.com/jenniferchin)
+[^4]: [Sexual Assault and Hookup Culture](https://www.dukechronicle.com/article/2017/03/sexual-assault-and-hookup-culture)
+[^5]: [In defense of 'dating' at Duke](https://www.dukechronicle.com/article/2017/04/in-defense-of-dating-at-duke)
+[^6]: [New class, who dis? Trinity adds new hookup requirement](https://www.dukechronicle.com/article/2018/01/df3dfiztz28o4rd)
+[^7]: [The Hazards of Duke](https://www.theatlantic.com/magazine/archive/2011/01/the-hazards-of-duke/308328/)
+[^8]: [Sex, Love and Celibacy](https://alumni.duke.edu/magazine/articles/sex-love-and-celibacy)

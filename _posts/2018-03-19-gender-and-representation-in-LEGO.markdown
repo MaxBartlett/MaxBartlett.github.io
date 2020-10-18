@@ -11,19 +11,19 @@ category: blog
 author: maxbartlett
 description: "Analysis of the differences between LEGO toys marketed to boys and girls."
 --- 
-**This was completed as a [homework assignment](https://www2.stat.duke.edu/courses/Spring18/Sta199/hw/hw-04.html) for [STA199: Introduction to Data Science](https://www2.stat.duke.edu/courses/Spring18/Sta199/) at Duke University. The LEGO dataset can be found [here](https://github.com/seankross/lego).**
+**This was completed as a [homework assignment](https://www2.stat.duke.edu/courses/Spring18/Sta199/hw/hw-04.html) for [STA199: Introduction to Data Science](https://www2.stat.duke.edu/courses/Spring18/Sta199/) at Duke University. The LEGO dataset can be found [here](https://github.com/seankross/LEGO).**
 
-In 2012, Lego released their Lego Friends line of toys, primarily marketed towards young girls. The toys [drew the ire of the public and media](https://www.theatlantic.com/entertainment/archive/2016/05/legos/484115/), that claimed that they were dumbed-down versions of the Lego toys marketed to boys. Michael McNally, a Lego spokesman claimed that "just about piece for piece, there are just as many pieces required to put something together [among Friends sets].” Does this claim hold up?
+In 2012, LEGO released their LEGO Friends line of toys, primarily marketed towards young girls. The toys drew the ire of the public and media, who claimed that they were dumbed-down versions of the LEGO toys marketed to boys.[1] Michael McNally, a LEGO spokesman claimed that "just about piece for piece, there are just as many pieces required to put something together [among Friends sets].” Does this claim hold up?
 
-To find the answer, I first examined how Lego Friends sets compare to past Lego sets marketed to girls, as well as how they compared to current sets marketed to boys.
+To find the answer, I first examined how LEGO Friends sets compare to past LEGO sets marketed to girls, as well as how they compared to current sets marketed to boys.
 
 I grouped all of the girls' sets and took some of the most popular boys' sets to compare against the Friends set.
 
 ```r
 Girls <- c("Homemaker", "Paradisa", "Scala", "Belville")
 boys <- c("Star Wars", "Lord of the Rings", "Bionicle", "Vikings")
-legosets_gender <-
-  legosets %>%
+LEGOsets_gender <-
+  LEGOsets %>%
   subset(Availability = c("Retail", "Retail - limited", "Not specified", "Unknown"),
          !is.na(Pieces) & Pieces > 0) %>%
   mutate(Gender_and_Friends = 
@@ -58,20 +58,20 @@ legosets_gender <-
 Next, I plotted the data using a barchart.
 
 ```r
-legosets_gender %>%
+LEGOsets_gender %>%
   subset(Gender_and_Friends != "Unspecified") %>%
   ggplot(aes(x = reorder(Gender_and_Friends, Pieces, FUN=median), y = Pieces)) +
   geom_boxplot() + 
   coord_cartesian(ylim = c(0, 1000)) +
-  labs(Title = "Lego Pieces in Girls', Boys' and Lego Friends sets", x = "Gender and Friends Category", y = "Number of Pieces")
+  labs(Title = "LEGO Pieces in Girls', Boys' and LEGO Friends sets", x = "Gender and Friends Category", y = "Number of Pieces")
 ```
 
-![gender-graph-1](../assets/blog/gender-and-representation-in-lego/plot-gender-1.png)
+![gender-graph-1](../assets/blog/gender-and-representation-in-LEGO/plot-gender-1.png)
 
 Finally, I displayed the summary statistics of each of the sets.
 
 ```r
-legosets_gender %>%
+LEGOsets_gender %>%
   subset(Gender_and_Friends != "Unspecified") %>%
   group_by(Gender_and_Friends) %>%
   summarize(mean_pieces = mean(Pieces), 
@@ -93,4 +93,6 @@ legosets_gender %>%
 ## # ... with 1 more variable: max_pieces <dbl>
 ```
 
-While the sample of sets used is not necessarily representative of all sets marketed to girls and boys, my simple analysis has shown that, while Lego Friends is an improvement on past Lego brands marketed to girls (I'm looking at you, Lego Homemaker), the average Friends set is not as structurally complex as the average set marketed to boys. In my opinion, Lego should make their girls' sets more intricate, or, better yet, eliminate gender-based marketing entirely.
+While the sample of sets used is not necessarily representative of all sets marketed to girls and boys, my simple analysis has shown that, while LEGO Friends is an improvement on past LEGO brands marketed to girls (I'm looking at you, LEGO Homemaker), the average Friends set is not as structurally complex as the average set marketed to boys. In my opinion, LEGO should make their girls' sets more intricate, or, better yet, eliminate gender-based marketing entirely.
+
+[1]: https://www.theatlantic.com/entertainment/archive/2016/05/LEGOs/484115/
