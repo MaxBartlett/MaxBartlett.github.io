@@ -40,7 +40,7 @@ In this blog post, I'll guide you through my own exploratory data analysis in R.
 
 > **Turkey:** Virtually all forms of entertainment use this [term] to indicate a bad or losing show. Its origin comes from actors (turkey actors) who opened poor shows on Thanksgiving Day in the hope of making money as part of the annual tradition.[^1]
 
-My primary focus for this analysis is the 1986 Broadway production of *Smile* by Marvin Hamlisch and Howard Ashman, in which my mother was a cast member. From what she's told me, the show was a turkey, and I'm interested in seeing how the data reflects this.
+My primary focus for this analysis is the 1986 Broadway production of *Smile* by Marvin Hamlisch and Howard Ashman, in which my mother was a cast member. Due to its short run on Broadway, the show could be considered a turkey, and I'm interested in seeing how the data reflects this.
 
 ## Forming Questions
 
