@@ -1,6 +1,6 @@
 ---
 title: "The Art and Craft of Saxophone Mouthpiece Design"
-subtitle: "Duke University Bass Connections Project - 2020"
+subtitle: "Duke University Bass Connections Project"
 layout: post
 date: 2020-06-30 17:00
 headerImage: https://bassconnections.duke.edu/sites/bassconnections.duke.edu/files/styles/large/public/saxophone-fb-v2.jpg?itok=qEr0nZUg
@@ -11,7 +11,7 @@ tag:
 projects: true
 category: project
 author: maxbartlett
-description: 
+description: The Art and Craft of Saxophone Mouthpiece Design -- Duke University Bass Connections Project
 --- 
 
 ![](https://bassconnections.duke.edu/sites/bassconnections.duke.edu/files/site-images/mouthpiece-rev.png)
